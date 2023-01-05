@@ -158,6 +158,7 @@ nav a{
     color: black;
     border-bottom: 2px solid transparent;
     padding: 10px 0px;
+    font-size: 2vh;
 }
 
 nav a:hover{
