@@ -1,0 +1,353 @@
+/* Toute la page */
+
+* {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+body {
+    font-size: 4vh;
+    background: url("../img/pexel-flowerpurple.jpg") no-repeat;
+    background-attachment: fixed;   
+    background-size: cover;
+    background-position: center;
+}
+
+main {
+    text-align: center;
+}
+
+.sectionHR {
+    border: 2px solid black;
+    width: 75%;
+    text-align: center;
+    margin: 2vh auto;
+}
+
+iframe {
+    border-radius: 5px;
+    border: 5px solid white;
+    margin: 1%;
+}
+
+.links {
+    display: inline-block;
+    text-decoration: underline;
+    color: blue;
+}
+
+.return {
+    width: 100%;
+    height: 5vh;
+}
+
+.clear {
+    clear: both;
+}
+
+#pinkText {
+    color: pink;
+}
+
+.button {
+    display: inline-block;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    width: 75%;
+    height: 7vh;
+    padding: 1%;
+}
+
+/* Page d'accueil */
+
+#divMainHome {
+    width: 80%;
+    margin: 2% auto;
+    background-color: #FFFFFFDA;
+    border-radius: 5px;
+    padding: 1%;
+}
+
+#association {
+    margin-top: 5%;
+}
+
+.catchphrase p{
+    color: gray;
+    font-size: 5vh;
+}
+
+#explications1 {
+    font-weight: bold;
+    font-size: 3vh;
+    text-align: left;
+    margin: 1% 0;
+}
+
+#explications2 {
+    font-weight: bold;
+    font-size: 3vh;
+    text-align: left;
+    margin: 1% 0;
+}
+
+.leftExplications {
+    text-align: left;
+    font-size: 3vh;
+}
+
+input {
+    width: 45%;
+    height: 5vh;
+    text-align: center;
+    color: black;
+    font-size: 2vh;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    width: 10%;
+    text-align: center;
+    font-weight: bold;
+}
+
+#Newsletter {
+    margin: 1% 0;
+}
+
+/* Barre de navigation (navbar) */
+
+nav{
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    float: left;
+    width: 13%;
+    text-align: center;
+    position: relative;
+}
+
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+
+nav a:hover{
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+.sous{
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+nav > ul li:hover .sous{
+    display: block;
+}
+.sous li{
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+.sous a{
+    padding: 10px;
+    border-bottom: none;
+}
+.sous a:hover{
+    border-bottom: none;
+    background-color: RGBa(200,200,200,0.1);
+}
+.deroulant > a::after{
+    content:" ▼";
+    font-size: 12px;
+}
+
+.conteneur{
+  margin: 50px 20px;
+  height: 1500px;
+}
+
+/* Citation */
+
+.citation {
+    font-size: 2vh;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#citationTitle {
+    font-size: 3vh;
+}
+
+/* Welcome */
+#welcomeText{
+    padding: 7vh 0;
+    font-size: 4vh;
+}
+
+/* Podcast */
+#podcast{
+    font-size: 3vh;
+    font-weight: bold;
+    padding: 2vh;
+}
+
+/* Avis */
+.avis{
+    text-align: left;
+}
+.avis h3{
+    font-size: 3vh;
+}
+.avis p{
+    font-size: 3vh;
+}
+
+/* Footer de la page */
+
+footer {
+    height: 7vh;
+    
+}
+
+.socialMediasLinks {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    padding: 1%;
+}
+
+.socialMedias {
+    width: 100%;
+    text-align: center;
+}
+
+#footerMainHome {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#footerMainHome p {
+    color: white;
+}
+
+/* Page qui-suis-je */
+
+#floatLeft {
+    float: left;
+    width: 15%;
+}
+
+#floatRight {
+    float: right;
+    width: 85%;
+    text-align: center;
+}
+
+#profile {
+    margin: 2% 0;
+    border-radius: 50%;
+    border: 10px solid white;
+}
+
+#list {
+    list-style-type: none;
+}
+
+.listElements {
+    margin: 2vh 0;
+    text-align: left;
+    font-size: 3vh;
+}
+
+.montParagraphe {
+    font-size: 3vh;
+}
+
+#divMainMaintenance {
+    width: 80%;
+    margin: 2% auto;
+    background-color: #FFFFFFAA;
+    border-radius: 5px;
+    padding: 1%;
+    height: 75vh;
+}
+
+#subtitleTahLesWishs {
+    font-size: 4vh;
+    margin: 1vh 0;
+}
+
+#twoSubtitleTahLesWishs {
+    margin-top: 1vh;
+}
+
+/* Ressources */
+.pdf {
+    text-align: left;
+}
+
+.pdfIcons {
+    float: left;
+    padding: 0.3% 2%;
+}
+
+.pdfTitle {
+    font-size: 2vh;
+    font-family: 'Montserrat', sans-serif;
+}
+/* Bibliographie */
+.imageBibliographie {
+    float: left;
+    width: 10%;
+    margin-right: 2%;
+}
+.bibliographieTitle p {
+    text-align: left;
+    font-weight: bold;  
+    margin-top: 2vh;
+}
+.bibliographieP {
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+}
+.buttonbibliographie{
+    text-decoration: underline;
+    font-size: 2.5vh;
+}
+.fontBold {
+    font-weight: 400;
+}
